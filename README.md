@@ -9,9 +9,16 @@ Minimal local script that polls Gmail via IMAP, extracts 6-digit OTP codes, and 
 4. Get your chat IDs (e.g. message your bot, then use any chat-id helper bot).
 
 ## Configure
-Copy `config.example.env` to `.env` and fill values.
+Copy `example.env` to `.env` and fill values.
 
 ## Run
+
+### Docker
+```bash
+docker compose up
+```
+
+### Local
 ```bash
 uv sync
 uv run python otp_forwarder.py
