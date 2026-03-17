@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: otp-bot
+    build: .
+    restart: unless-stopped
+    env_file:
+      - .env
