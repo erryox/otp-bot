@@ -4,7 +4,7 @@ Minimal local script that polls Gmail via IMAP, extracts 6-digit OTP codes, and 
 
 ## Setup
 1. Enable IMAP in Gmail settings.
-2. Create an app password (Google Account -> Security -> App passwords).
+2. Create an [app password](https://myaccount.google.com/apppasswords).
 3. Create a Telegram bot via @BotFather and get the bot token.
 4. Get your chat IDs (e.g. message your bot, then use any chat-id helper bot).
 
